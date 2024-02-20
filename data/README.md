@@ -18,6 +18,8 @@ This command clones the ImageMLDataset repository into a directory named `Data` 
 
 **Running the Script:**
 - Ensure to place your `config.json` in the `.config/` directory at the root of your project, then execute `stage_resize.py` to resize the images.
+- Ensure you have reviewed the `requirements.txt`
+
 **Implementing Safe Dimensions in Data Preparation**
 - When resizing images using `stage_resize.py`, refer to the `odd_pixel_count.png` by layers to view the idea of an appropriate starting dimension. 
 
